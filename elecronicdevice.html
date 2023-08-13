@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="external.css">
+        <body>
+            <style>
+                .btn{
+	display: inline-block;
+	padding:.8rrem 3rem;
+	border:.2rem solid var(#ffd1dc);
+	color:var(#ffd1dc);
+	cursor:pointer;
+	font-size: 1.7rem;
+	border-radius: .5rem;
+	position: relative;
+	overflow: hidden;
+	z-index:0;
+	margin-top: 1rem;
+}
+
+.btn::before{
+	content:'';
+	position: absolute;
+	top:0; right:0;
+	width:0%;
+	height:100%;
+	background:var(#ffd1dc);
+	transition: .3s linear;
+	z-index: -1;
+}
+
+.btn:hover::before{
+	width:100%;
+	left:0;
+}
+
+.btn:hover{
+	color:#ffd1dc;
+}
+                .popular .container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap:1.5rem;
+                }
+                
+                .popular .container .box{
+                    padding:2rem;
+                    background: #fff;
+                    box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+                    border: .1rem solid rgba(0,0,0, .3);
+                    border-radius: .5rem;
+                    text-align : center;
+                    flex: 1 1 30rem;
+                    position: relative;
+                }
+                .popular .container .box img{
+                    height: 25rem;
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius: .5rem;
+                }
+                .popular .container .box .price{
+                        position: absolute;
+                        top: 3rem; left: 3rem;
+                        background: skyblue;
+                        color: white;
+                        font-size: 2rem;
+                        padding: .5rem 1rem;
+                        border-radius: .5rem;
+                }
+                .popular .container .box h3{
+                    color: #333;
+                    font-size: 2.5rem;
+                    padding-top: 1rem;
+                }
+                
+                .popular .container .box .stars i{
+                    color:gold;
+                    font-size: 1.7rem;
+                    padding-top:1rem .1rem;
+                }
+                
+                </style>
+            <section class="popular" id="popular">
+
+               
+                    <div class="container">
+                
+            <div class="box">
+                <span class="price"> $24.99 to $30.99 </span>
+                <img src="https://i.pinimg.com/564x/12/cc/de/12ccde3c8804d7998928b3f96ed18fe9.jpg"  height=50% width=50% alt="">
+                <h3> phones </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn" > order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+        
+        <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/78/61/c1/7861c14686fa5b2ff32bc45dbc80da1e.jpg"  height=50% width=50% alt="">
+                <h3> laptop </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+        
+        <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/bf/05/97/bf0597d7444d7489bfc55777aa89daea.jpg"  height=50% width=50%  alt="">
+                <h3> tab </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+        
+        <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/7e/c1/27/7ec1277f1d817a4bec320eea62711665.jpg"  height=50% width=50%  alt="">
+                <h3> smart watch </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+        
+        <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/dd/76/7d/dd767da725e174a171f6b208bab3f733.jpg"  height=50% width=50% alt="">
+                <h3> ear buds </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/1f/e4/14/1fe4142562c79e271fd413df65b14c20.jpg"  height=50% width=50%  alt="">
+                <h3> ps5 </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/e0/d2/80/e0d280dc56672151fe3644c4703bfa17.jpg"  height=50% width=50%  alt="">
+                <h3> speaker </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/474x/40/48/6b/40486b4259f5261292e81d7336bd65a6.jpg"  height=50% width=50%  alt="">
+                <h3> digital clock </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/35/fa/eb/35faeb7a012485607f4c37813c3c1100.jpg"  height=50% width=50%  alt="">
+                <h3> power bank </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/d5/bc/b4/d5bcb47652fc004e02f9a519ce05bf2b.jpg"  height=50% width=50%  alt="">
+                <h3> projector </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/ac/9d/32/ac9d3255ad3169d76230f6c61cb28598.jpg"  height=50% width=50%  alt="">
+                <h3> charger </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+                <br><select href="brand" class="btn">
+                    <option value="brand">brand</option>
+                    <option value="apple">apple</option>
+                    <option value="vivo">vivo</option>
+                    <option value="realme">realme</option>
+                    <option value="oppo">oppo</option>
+                    <option value="nokia">nokia</option>
+                    <option value="samsung">samsung</option>
+                    <option value="one plus">one plus</option>
+                  </select>
+            </div>
+            <div class="box">
+                <span class="price"> $5 -$20 </span>
+                <img src="https://i.pinimg.com/564x/f7/0f/fe/f70ffe5b6593f230198138a6e248724d.jpg"  height=50% width=50%  alt="">
+                <h3> wired headphones </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="C:\Users\hp\Desktop\order.html" class="btn"> order now </a>
+            </div>
+          
+    
+    
+            </section>
+        </body>
+    </head>
+</html>
